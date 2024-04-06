@@ -7,7 +7,7 @@ Este projeto consiste em uma aplicação de cardápio, onde os usuários podem v
 Agradeço à Fernanda Kipper pelo tutorial de ensino "Criando Aplicação Fullstack do Zero, Desenvolvimento do Frontend com React e Typescript", que serviu como base para a construção deste projeto.
 
 
-![alt text](image-1.png)
+![alt text](imgs/image-1.png)
 ![alt text](image-2.png)
 
 ## Backend da Aplicação de Cardápio
