@@ -12,20 +12,23 @@ import java.util.List;
 @RestController
 @RequestMapping("food")
 public class FoodController {
-    @Autowired   //indica p ro spring como instanciar
+
+    @Autowired
     private FoodRepository repository;
 
-    @CrossOrigin(origins = "*",allowedHeaders = "*")
+    @CrossOrigin(origins = "*", allowedHeaders = "*")
     @PostMapping
     public void saveFood(@RequestBody FoodRequestDTO data){
         Food foodData = new Food(data);
         repository.save(foodData);
         return;
     }
-    @GetMapping
-    public List<FoodResponseDTO> getAll(){ //é usado quando o request pega o food
 
-        List<FoodResponseDTO> foodList = repository.findAll().stream().map(FoodResponseDTO::new).toList();//pega todos os dados
+    @CrossOrigin(origins = "*", allowedHeaders = "*")
+    @GetMapping
+    public List<FoodResponseDTO> getAll(){
+
+        List<FoodResponseDTO> foodList = repository.findAll().stream().map(FoodResponseDTO::new).toList();
         return foodList;
     }
 }

@@ -58,4 +58,4 @@ export function CreateModal({ closeModal }: ModalProps){
             </div>
         </div>
     )
-}
+} 
