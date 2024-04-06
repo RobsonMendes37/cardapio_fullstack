@@ -8,7 +8,7 @@ Agradeço à Fernanda Kipper pelo tutorial de ensino "Criando Aplicação Fullst
 
 
 ![alt text](imgs/image-1.png)
-![alt text](image-2.png)
+![alt text](imgs/image-2.png)
 
 ## Backend da Aplicação de Cardápio
 
